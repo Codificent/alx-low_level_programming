@@ -5,7 +5,7 @@ i#include <stdlib.h>
  * free_dog - this function frees memory allocated for  struct dog
  * @d: struct dog to free
  */
-void free_dog(dog_t *d)
+void free_dog(dog_t *d);
 {
 	if (d)
 	{
